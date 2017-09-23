@@ -1,0 +1,1 @@
+Solutions for [Codibility](https://codility.com/programmers/lessons/) problems in Java.
