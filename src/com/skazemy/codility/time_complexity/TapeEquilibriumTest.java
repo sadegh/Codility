@@ -9,6 +9,7 @@ class TapeEquilibriumTest {
     void solution() {
         TapeEquilibrium solution = new TapeEquilibrium();
         assertEquals(1, solution.solution(new int[] {3, 1, 2, 4, 3}));
+        assertEquals(0, solution.solution(new int[] {Integer.MAX_VALUE, Integer.MAX_VALUE}));
     }
 
 }

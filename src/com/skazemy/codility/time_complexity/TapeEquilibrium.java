@@ -6,11 +6,10 @@ public class TapeEquilibrium {
         long total = 0;
         for (int element : array) total += element;
 
-        long minDif = Long.MAX_VALUE;
+        long sum = 0;
+        long minDif = Integer.MAX_VALUE;
 
-        long sum = array[0];
-
-        for (int i = 1; i < array.length; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
             sum += array[i];
             minDif = Math.min(minDif, Math.abs(total - (2 * sum)));
         }
